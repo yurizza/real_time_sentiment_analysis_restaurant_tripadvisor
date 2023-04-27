@@ -4,18 +4,21 @@ A restaurant is one of the places visited to enjoy a variety of culinary that is
 
 **Stages :**
 **1. Retrieval of Testing Data with Web Scraping**
+
 scraing from website tripadvisor.
 <div class="row">
   <div class="column">
     <img src="https://github.com/yurizza/real_time_sentiment_analysis_restaurant_tripadvisor/blob/main/assets/hasil-web-scraping.png" width=300 height=300></img></div>
 </div>
 **2. Data Training**
+
 in file "Restaurant_Reviews.csv".
 <div class="row">
   <div class="column">
     <img src="https://github.com/yurizza/real_time_sentiment_analysis_restaurant_tripadvisor/blob/main/assets/data-training.png" width=300 height=300></img></div>
 </div>
 **3. Preprocessing**
+
 preprocessing using library tm.
 3.1 lower all character
 3.2 delete punctuatin
@@ -24,13 +27,22 @@ preprocessing using library tm.
 3.4 delete strip white space
 
 **4. R Shiny**
+
 4.1. Show sentiment analysis
 <div class="row">
   <div class="column">
-    <img src="https://github.com/yurizza/real_time_sentiment_analysis_restaurant_tripadvisor/blob/main/assets/restaurant-reviews.png" width=400 height=300></img></div>
+    <img src="https://github.com/yurizza/real_time_sentiment_analysis_restaurant_tripadvisor/blob/main/assets/restaurant-reviews.png" width=500 height=400></img></div>
 </div>
+
 4.2 Plot compare any restaurant
 <div class="row">
   <div class="column">
-    <img src="https://github.com/yurizza/real_time_sentiment_analysis_restaurant_tripadvisor/blob/main/assets/compare-satiesfied-any-restaurant.png" width=400 height=300></img></div>
+    <img src="https://github.com/yurizza/real_time_sentiment_analysis_restaurant_tripadvisor/blob/main/assets/compare-satisfied-any-restaurant.png" width=500 height=300></img></div>
 </div>
+
+4.3 Word cloud
+<div class="row">
+  <div class="column">
+    <img src="https://github.com/yurizza/real_time_sentiment_analysis_restaurant_tripadvisor/blob/main/assets/word-cloud.png" width=600 height=300></img></div>
+</div>
+
